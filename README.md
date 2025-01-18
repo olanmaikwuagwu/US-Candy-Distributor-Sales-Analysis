@@ -1,1 +1,2 @@
 ## Project Overview
+A certain firm in the United States is focused on distributing 15 candy products to customers across the country and Canada. The company has 5 factories and its products are classified under 3 divisions namely; chocolate, sugar, and others. In this analysis, the goal is to examine the business sales, profits, and trends across the 4-year period starting from 2021 to 2024. In the end, I will make some recommendations based on the insights derived from querying the data.
