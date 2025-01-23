@@ -34,7 +34,7 @@ The following questions were analyzed from the dataset:
 + How did the highest grossing state compare to the lowest?
 
 ## Trends Analysis
-+ Clssify states by total sales and year on year percentage.
++ Classify states by total sales and year on year percentage.
 + Show the relationship between sales and profit percentage change across months.
 + What is the month on month percent change for sales and units sold?
   
@@ -46,6 +46,8 @@ The following questions were analyzed from the dataset:
 + Of the 39000 units of candy sold within this period, $140,000 was generated in sales, and the company realized $93,000 in profits.
 
 ## DAX Calculations
+```dax
+
 1. PreviousYearSales = 
 CALCULATE(
     SUM('Candy_sales (2)'[Sales]),
