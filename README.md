@@ -71,29 +71,38 @@ CALCULATE(
     DATEADD('Calendar'[Date], -1, MONTH)
 )
 
-6. MoM Sales % Change = 
+6. MoMSalesChange = 
+SUM('Candy_sales (2)'[Sales]) - [PreviousMonthSales]
+
+7. MoM Sales % Change = 
 DIVIDE(
     [MoMSalesChange], 
     [PreviousMonthSales], 
     0
 ) * 100
 
-7. PreviousMonthUnitsSold = 
+8. PreviousMonthUnitsSold = 
 CALCULATE(
     SUM('Candy_sales (2)'[Units]),
     DATEADD('Calendar'[Date], -1, MONTH)
 )
 
-8. MoM Units Sold % Change = 
+9. MoMUnitsSoldChange = 
+SUM('Candy_sales (2)'[Units]) - [PreviousMonthUnitsSold]
+
+10. MoM Units Sold % Change = 
 DIVIDE(
     [MoMUnitsSoldChange], 
     [PreviousMonthUnitsSold], 
     0
 ) * 100
 
-9. Total profit = SUM('Candy_sales (2)'[Gross Profit])
+11. Total profit = SUM('Candy_sales (2)'[Gross Profit])
 
-10. MoMProfitPercentageChange = 
+12. MoMProfitChange = 
+SUM('Candy_sales (2)'[Gross Profit]) - [PreviousMonthProfit]
+
+13. MoMProfitPercentageChange = 
 DIVIDE(
     [MoMProfitChange], 
     [PreviousMonthProfit], 
