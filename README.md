@@ -1,6 +1,12 @@
 ## Project Overview
 A certain firm in the United States is focused on distributing 15 candy products to customers across the country and Canada. The company has 5 factories and its products are classified under 3 divisions namely; chocolate, sugar, and others. In this analysis, the goal is to examine the business sales, profits, and trends across the 4-year period starting from 2021 to 2024. In the end, I will make some recommendations based on the insights derived from querying the data.
 
+
+
+https://github.com/user-attachments/assets/be5c0af8-654d-4001-9f9f-fa652b170367
+
+
+
 <img width="546" alt="Wonka 2" src="https://github.com/user-attachments/assets/a77891be-3e01-4f71-afe4-30be6a38039f" />
 <img width="544" alt="Wonka 3" src="https://github.com/user-attachments/assets/e13e6cff-a0fd-4a9e-bc47-faa15a7d18e4" />
 <img width="548" alt="Wonka 4" src="https://github.com/user-attachments/assets/d627bdbe-468d-4789-beee-ba47d70c2318" />
